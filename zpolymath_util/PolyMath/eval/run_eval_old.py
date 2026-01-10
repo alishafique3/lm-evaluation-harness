@@ -76,7 +76,6 @@ def evaluation(args):
 
 
     acc, thinking_lang_cons, answer_lang_cons = 0, 0, 0
-    updated_data = []
     for i in tqdm(range(len(data))):
         idx = data[i]["idx"]
         question = data[i]["question"]
@@ -88,7 +87,6 @@ def evaluation(args):
         extracted_pred = extract_boxed_content(answer_pred)
         extracted_pred = extracted_pred[0] if len(extracted_pred) > 0 else None
         acc_binary = math_equal(extracted_pred, answer)
-        exact_match = 1.0 if acc_binary else 0.0
         acc += 1 if acc_binary else 0
         
         ### language consistency judgement
@@ -122,14 +120,6 @@ def evaluation(args):
         
         thinking_lang_cons += 1 if thinking_lang_cons_binary else 0
         answer_lang_cons += 1 if answer_lang_cons_binary else 0
-        
-        data[i]["exact_match"] = exact_match
-        updated_data.append(data[i])
-
-    # Write updated data back to jsonl file
-    with open(output_file, 'w', encoding='utf-8') as file:
-        for item in updated_data:
-            file.write(json.dumps(item, ensure_ascii=False) + '\n')
     
     acc = round(acc / len(data) * 100, 1)
     thinking_lang_cons = round(thinking_lang_cons / len(data) * 100, 1)
