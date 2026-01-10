@@ -227,4 +227,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python zmono_csv.py results/deepseek-ai__DeepSeek-R1-Distill-Qwen-1.5B/monolingual "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "monolingual" "mgsm_en_cot"
+# python mono_csv.py results/deepseek-ai__DeepSeek-R1-Distill-Qwen-1.5B/monolingual "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "monolingual" "mgsm_en_cot"
