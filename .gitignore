@@ -26,7 +26,6 @@ profile_default/
 ipython_config.py
 
 # Output and data
-output/
 data/
 temp/
 test_logs/
