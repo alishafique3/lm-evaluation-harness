@@ -9,7 +9,7 @@ from scripts import math_equal
 from langdetect import detect_langs
 
 language_list = ["en", "zh", "ar", "bn", "de", "es", "fr", "id", "it", "ja", "ko", "ms", "pt", "ru", "sw", "te", "th", "vi", ]
-level_list = ["low", "middle", "high", "top"]
+level_list = ["low", "medium", "high", "top"]
 
 
 def initial_score_json(score_file):

@@ -1,19 +1,22 @@
 #!/usr/bin/env bash
 set -e
 
-level_list=(medium high top)
-language_list=(en es fr ja ru zh)
+# deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+
+level_list=(low medium high top)
+language_list=(en)
 
 for level in "${level_list[@]}"; do
   for lang in "${language_list[@]}"; do
-    python vllm_run.py \
+    python vllm_DeepSeek-R1-Distill-Qwen-14B.py \
       --split "$level" \
       --subset "$lang" \
-      --model deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+      --model deepseek-ai/DeepSeek-R1-Distill-Qwen-14B \
+      --limit 50
       sleep 3
   done
 done
 
 
 
-# python vllm_run.py --subset en --split low --model deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+# python vllm_DeepSeek-R1-Distill-Qwen-14B.py --subset en --split low --model deepseek-ai/DeepSeek-R1-Distill-Qwen-14B

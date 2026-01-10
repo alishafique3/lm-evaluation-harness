@@ -1,6 +1,6 @@
 model_list=(DeepSeek-R1-Distill-Qwen-14B)
-language_list=(en es fr ja ru zh)
-level_list=(low)
+language_list=(en)
+level_list=(low medium high top)
 
 for i in ${model_list[*]}; do
     for j in ${language_list[*]}; do
