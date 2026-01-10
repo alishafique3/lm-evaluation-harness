@@ -1,7 +1,6 @@
-model_list=(qwq-32b)
-language_list=(en zh ar bn de es fr id it ja ko ms pt ru sw te th vi)
-language_list=(zh ja te)
-level_list=(low middle high top)
+model_list=(DeepSeek-R1-Distill-Qwen-14B)
+language_list=(en es fr ja ru zh)
+level_list=(low)
 
 for i in ${model_list[*]}; do
     for j in ${language_list[*]}; do
