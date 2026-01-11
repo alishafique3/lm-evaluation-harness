@@ -1,0 +1,452 @@
+{
+    "en": {
+        "low": {
+            "accuracy": 96.8,
+            "thinking_lang_cons": 100.0,
+            "answer_lang_cons": 98.4
+        },
+        "medium": {
+            "accuracy": 60.8,
+            "thinking_lang_cons": 99.2,
+            "answer_lang_cons": 100.0
+        },
+        "high": {
+            "accuracy": 48.0,
+            "thinking_lang_cons": 99.2,
+            "answer_lang_cons": 100.0
+        },
+        "top": {
+            "accuracy": 25.6,
+            "thinking_lang_cons": 99.2,
+            "answer_lang_cons": 100.0
+        },
+        "benchmark_weighted_acc": 41.0,
+        "benchmark_thinking_lang_cons": 99.4,
+        "benchmark_answer_lang_cons": 99.6
+    },
+    "zh": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "ar": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "bn": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "de": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "es": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "fr": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "id": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "it": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "ja": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "ko": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "ms": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "pt": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "ru": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "sw": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "te": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "th": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    },
+    "vi": {
+        "low": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "medium": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "high": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "top": {
+            "accuracy": null,
+            "thinking_lang_cons": null,
+            "answer_lang_cons": null
+        },
+        "benchmark_weighted_acc": null,
+        "benchmark_thinking_lang_cons": null,
+        "benchmark_answer_lang_cons": null
+    }
+}

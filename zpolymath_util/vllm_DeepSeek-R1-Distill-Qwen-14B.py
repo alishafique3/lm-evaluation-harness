@@ -57,7 +57,7 @@ def main():
     
     # Initialize vLLM
     print(f"Loading model: {args.model}")
-    llm = LLM(model=args.model)
+    llm = LLM(model=args.model, dtype="float16")
     sampling_params = SamplingParams(max_tokens=args.max_tokens, temperature=args.temperature)
     
     # Prepare conversations
