@@ -1,4 +1,4 @@
-model_list=(DeepSeek-R1-Distill-Qwen-14B)
+model_list=(DeepSeek-R1-Distill-Qwen-32B)
 language_list=(en)
 level_list=(low medium high top)
 

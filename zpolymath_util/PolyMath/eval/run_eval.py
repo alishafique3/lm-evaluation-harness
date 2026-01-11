@@ -57,7 +57,7 @@ def evaluation(args):
     level = args.level
     print(model, language, level)
 
-    output_file = f"/workspace/lm-evaluation-harness/zpolymath_util/output/{model}/{level}/{language}.jsonl"
+    output_file = f"/home/ubuntu/lm-evaluation-harness/zpolymath_util/output/{model}/{level}/{language}.jsonl" 
     try:
         data = []
         with open(output_file, 'r', encoding='utf-8') as file:
@@ -144,7 +144,7 @@ def evaluation(args):
 
 
     ### save results
-    score_file = os.path.join(f"/workspace/lm-evaluation-harness/zpolymath_util/output/{model}", "score.json")
+    score_file = os.path.join(f"/home/ubuntu/lm-evaluation-harness/zpolymath_util/output/{model}", "score.json")
     if not os.path.isfile(score_file):
         initial_score_json(score_file)
     with open(score_file, 'r', encoding='utf-8') as f:

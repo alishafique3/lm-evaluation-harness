@@ -43,7 +43,8 @@ def main():
     parser.add_argument("--model", type=str, required=True, 
                         help="Model name (e.g., deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of examples to process")
-    
+    parser.add_argument("--temperature", type=float, default=0.6, help="Temperature for sampling")
+    parser.add_argument("--max_tokens", type=int, default=65536, help="Max tokens for sampling")
     args = parser.parse_args()
     
     # Load dataset
@@ -57,7 +58,7 @@ def main():
     # Initialize vLLM
     print(f"Loading model: {args.model}")
     llm = LLM(model=args.model)
-    sampling_params = SamplingParams(max_tokens=131072, temperature=0.6)
+    sampling_params = SamplingParams(max_tokens=args.max_tokens, temperature=args.temperature)
     
     # Prepare conversations
     conversations = []
@@ -104,4 +105,4 @@ if __name__ == "__main__":
     main()
 
 
-# python vllm_run.py --subset en --split low --model deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B --limit 10
+# python vllm_run.py --subset en --split low --model deepseek-ai/DeepSeek-R1-Distill-Qwen-14B --limit 10
