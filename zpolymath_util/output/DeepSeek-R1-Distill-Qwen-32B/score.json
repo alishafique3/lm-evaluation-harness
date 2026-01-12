@@ -26,28 +26,28 @@
     },
     "zh": {
         "low": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 92.0,
+            "thinking_lang_cons": 91.2,
+            "answer_lang_cons": 85.6
         },
         "medium": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 59.2,
+            "thinking_lang_cons": 87.2,
+            "answer_lang_cons": 88.8
         },
         "high": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 40.8,
+            "thinking_lang_cons": 93.6,
+            "answer_lang_cons": 96.8
         },
         "top": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 23.2,
+            "thinking_lang_cons": 93.6,
+            "answer_lang_cons": 96.0
         },
-        "benchmark_weighted_acc": null,
-        "benchmark_thinking_lang_cons": null,
-        "benchmark_answer_lang_cons": null
+        "benchmark_weighted_acc": 37.3,
+        "benchmark_thinking_lang_cons": 91.4,
+        "benchmark_answer_lang_cons": 91.8
     },
     "ar": {
         "low": {
@@ -151,28 +151,28 @@
     },
     "fr": {
         "low": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 88.0,
+            "thinking_lang_cons": 2.4,
+            "answer_lang_cons": 52.8
         },
         "medium": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 67.2,
+            "thinking_lang_cons": 2.4,
+            "answer_lang_cons": 0.8
         },
         "high": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 44.0,
+            "thinking_lang_cons": 0.8,
+            "answer_lang_cons": 0.8
         },
         "top": {
-            "accuracy": null,
-            "thinking_lang_cons": null,
-            "answer_lang_cons": null
+            "accuracy": 28.0,
+            "thinking_lang_cons": 3.2,
+            "answer_lang_cons": 1.6
         },
-        "benchmark_weighted_acc": null,
-        "benchmark_thinking_lang_cons": null,
-        "benchmark_answer_lang_cons": null
+        "benchmark_weighted_acc": 41.5,
+        "benchmark_thinking_lang_cons": 2.2,
+        "benchmark_answer_lang_cons": 14.0
     },
     "id": {
         "low": {
