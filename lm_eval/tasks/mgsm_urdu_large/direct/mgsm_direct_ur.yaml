@@ -1,0 +1,12 @@
+# MGSM Urdu
+dataset_name: null
+doc_to_target: '{% if urdu_answer is not none %}{{urdu_answer[16:]}}{% else %}{{answer_number|string}}{% endif %}'
+doc_to_text: '{% if urdu_answer is not none %}{{urdu_question+"\nجواب:"}}{% else %}{{"سوال: "+urdu_question+"\nجواب:"}}{% endif %}'
+generation_kwargs:
+  do_sample: false
+  until:
+    - 'سوال:'
+    - </s>
+    - <|im_end|>
+include: direct_yaml
+task: mgsm_direct_ur
